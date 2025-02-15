@@ -23,4 +23,3 @@ How to Run the Colab File
 3.	Ensure that the dataset (diabetes.csv) is also uploaded to Colab. You can do this by clicking on the Files tab and uploading the dataset.
 4.	Run each cell sequentially to load the data, preprocess it, train the SVM model, and evaluate its performance.
 5.	Modify hyperparameters or experiment with different kernels to improve model performance.
-![image](https://github.com/user-attachments/assets/afe11083-c9be-4aa4-9f7f-0ac97896d10a)
