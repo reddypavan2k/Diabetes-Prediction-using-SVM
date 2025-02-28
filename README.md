@@ -1,25 +1,48 @@
-Overview
+Diabetes & Heart Disease Prediction
 
-This project implements a Support Vector Machine (SVM) model to predict diabetes based on medical diagnostic features. The dataset used is the Pima Indians Diabetes Dataset, which contains various health-related attributes.
 
-Dataset
+This repository contains machine learning models for predicting Diabetes and Heart Disease using datasets and Jupyter notebooks. The models are built and executed using Google Colab.
 
-The dataset consists of the following features:
+📂 Repository Structure
 
-1.	Pregnancies: Number of times pregnant
-2.	Glucose: Plasma glucose concentration (mg/dL)
-3.	Blood Pressure: Diastolic blood pressure (mm Hg)
-4.	Skin Thickness: Triceps skin fold thickness (mm)
-5.	Insulin: 2-Hour serum insulin (mu U/ml)
-6.	BMI: Body Mass Index (weight in kg/height in m)
-7.	Diabetes Pedigree Function: A function that scores the likelihood of diabetes based on family history
-8.	Age: Age of the patient in years
-9.	Outcome: Target variable (1 for diabetic, 0 for non-diabetic)
+Diabetes_Prediction.ipynb – Jupyter Notebook for diabetes prediction.
 
-How to Run the Colab File
+Heart_Disease_Prediction.ipynb – Jupyter Notebook for heart disease prediction.
 
-1.	Open Google Colab (colab.research.google.com).
-2.	Upload the notebook file (SVM_Diabetes_Prediction.ipynb) by clicking on File → Upload Notebook.
-3.	Ensure that the dataset (diabetes.csv) is also uploaded to Colab. You can do this by clicking on the Files tab and uploading the dataset.
-4.	Run each cell sequentially to load the data, preprocess it, train the SVM model, and evaluate its performance.
-5.	Modify hyperparameters or experiment with different kernels to improve model performance.
+data.csv – Dataset used for predictions.
+
+diabetes.csv – Dataset specifically for diabetes prediction.
+
+README.md – Documentation for this repository.
+
+🚀 Installation & Usage
+
+Clone this repository:
+
+git clone https://github.com/reddypavan2k/your-repo-name.git
+
+Open the Jupyter Notebooks in Google Colab or a local Jupyter environment.
+
+Upload the datasets if needed.
+
+Run all the cells to train and evaluate the models.
+
+📊 Models & Techniques
+
+Supervised Learning: Classification models for predicting diseases.
+
+Libraries Used: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn.
+
+📌 Notes
+
+Ensure all dependencies are installed before running the notebooks.
+
+Modify dataset paths if running in a local environment.
+
+💡 Contributing
+
+Feel free to contribute by improving the models, refining data preprocessing, or adding new features.
+
+📜 License
+This project is open-source and available under the MIT License.
+
